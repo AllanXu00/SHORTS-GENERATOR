@@ -1,0 +1,10 @@
+import random as r 
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+operators1 = ['-', '/']
+operators2 = ['-', '/', '+', '*']
+star = r.randint (1, 100)
+print "Find f(", star, ")"
+print "f(x) = "
+print "f( x", r.choice(operators1), r.choice(nums), ")", r.choice(operators2), r.choice(nums), "         if x >", r.randint(1, 50) 
+print r.choice(nums), r.choice(operators2), r.choice(nums), "                  else"
+
