@@ -9,4 +9,5 @@ for j in range (20):
 		a = r.randint(0, lim-1)
 		c = str(a)
 		b += c
-	print b, "in base", lim
+	print b, "( base", lim , ")"
+
